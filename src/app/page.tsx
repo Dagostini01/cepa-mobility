@@ -90,11 +90,11 @@ export default function Home() {
             <div>
               <label className="block text-gray-800 font-medium mb-2">Nascimento:</label>
               <input 
-                type="date" 
+                type="text" 
                 name="nascimento" 
                 value={formData.nascimento}
                 onChange={handleChange}
-                placeholder="Selecione sua data de nascimento"
+                placeholder="Digite sua data de nascimento (DD/MM/AAAA)"
                 className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 placeholder-gray-400"
                 required 
               />
@@ -142,11 +142,11 @@ export default function Home() {
             <div>
               <label className="block text-gray-800 font-medium mb-2">Admissão na Cia:</label>
               <input 
-                type="date" 
-                name="admissao" 
+                type="text" 
+                name="admissao"
                 value={formData.admissao}
                 onChange={handleChange}
-                placeholder="Data de admissão"
+                placeholder="Digite a data de admissão (DD/MM/AAAA)"
                 className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 placeholder-gray-400"
                 required 
               />
@@ -181,11 +181,11 @@ export default function Home() {
             <div>
               <label className="block text-gray-800 font-medium mb-2">Obtenção 1ª CNH:</label>
               <input 
-                type="date" 
-                name="obtencaoCNH" 
+                type="text" 
+                name="obtencaoCNH"
                 value={formData.obtencaoCNH}
                 onChange={handleChange}
-                placeholder="Digite a data de obtenção da 1ª CNH"
+                placeholder="Digite a data de obtenção da 1ª CNH (DD/MM/AAAA)"
                 className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 placeholder-gray-400"
                 required 
               />
@@ -194,11 +194,11 @@ export default function Home() {
             <div>
               <label className="block text-gray-800 font-medium mb-2">Vencimento CNH:</label>
               <input 
-                type="date" 
+                type="text" 
                 name="vencimentoCNH" 
                 value={formData.vencimentoCNH}
                 onChange={handleChange}
-                placeholder="Data de vencimento da CNH"
+                placeholder="Digite a data de vencimento da CNH (DD/MM/AAAA)"
                 className="w-full p-3 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900 placeholder-gray-400"
                 required 
               />
