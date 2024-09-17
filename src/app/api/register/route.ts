@@ -17,7 +17,7 @@ export async function POST(request: Request) {
 
   const mailOptions = {
     from: process.env.EMAIL_USER, // Usar o email da variável de ambiente
-    to: 'gmota@cepamobilty.com', // Email de destino
+    to: 'gmota.bot@gmail.com', // Email de destino
     subject: 'Novo usuário cadastrado no sistema CEPA Mobility',
     text: `O usuário ${nome} com User ID: ${userId} foi cadastrado no sistema.`,
   };
